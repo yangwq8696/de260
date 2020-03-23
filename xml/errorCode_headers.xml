@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Header>
+        <Item Type="0" Text="code" RelaSize="15" AbsSize="0" Visible="1"/>
+        <Item Type="0" Text="spn" RelaSize="15" AbsSize="0" Visible="1"/>
+        <Item Type="0" Text="fmi" RelaSize="15" AbsSize="0" Visible="1"/>
+        <Item Type="0" Text="oc" RelaSize="15" AbsSize="0" Visible="1"/>
+        <Item Type="0" Text="data" RelaSize="38" AbsSize="0" Visible="1"/>
+
+		
+</Header>
+        <!--Item Type="0" Text="速度导航精度类别" RelaSize="20" AbsSize="0" Visible="1"--/>
+	<!--Item Type="1" Text="行标题1" RelaSize="0" AbsSize="25" Visible="1"--/>
+	<!--Item Type="1" Text="行标题2" RelaSize="0" AbsSize="25" Visible="1"--/>
+

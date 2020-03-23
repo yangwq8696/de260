@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FORM_CurrentErrorQuery</class>
+ <widget class="QWidget" name="FORM_CurrentErrorQuery">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QTableView{
+	color: rgb(196, 160, 0);
+	font: 17pt &quot;WenQuanYi Zen Hei&quot;;
+	background-color: transparent;
+	gridline-color:rgba(73,153,216,200);
+	selection-background-color:rgb(170,255,255);
+	selection-color:rgb(255,0,0);
+}
+</string>
+  </property>
+  <widget class="wika_tableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>130</y>
+     <width>1000</width>
+     <height>500</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QHeaderView::section:first{
+	color:rgb(73,153,216);
+	background-color:qlineargradient(spread:pad, x1:1, y1:1, x2:0, y2:0, stop:0 rgba(0,103,185, 255), stop:1 rgba(0,0,0, 255));
+   height:30px;
+	font: bold 17pt &quot;WenQuanYi Zen Hei&quot;; 
+   border:1px solid rgba(73,153,216,200);
+}
+
+QHeaderView::section:middle{
+	color:rgb(73,153,216);
+	background-color:qlineargradient(spread:pad, x1:1, y1:1, x2:0, y2:0, stop:0 rgba(0,103,185, 255), stop:1 rgba(0,0,0, 255));
+   height:30px;
+	font: bold 17pt &quot;WenQuanYi Zen Hei&quot;; 
+   border:1px solid rgba(73,153,216,200);
+}
+
+QHeaderView::section:last{
+	color:rgb(73,153,216);
+	background-color:qlineargradient(spread:pad, x1:1, y1:1, x2:0, y2:0, stop:0 rgba(0,103,185, 255), stop:1 rgba(0,0,0, 255));
+   height:30px;
+	font: bold 17pt &quot;WenQuanYi Zen Hei&quot;; 
+   border:1px solid rgba(73,153,216,200);
+}
+
+QHeaderView::section:checked{
+	background-color:red;
+}
+
+QTableView::item{
+    min-height: 30px;
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>50</y>
+     <width>371</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>TakaoPGothic</family>
+     <pointsize>30</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(252, 233, 79);
+font: 30pt &quot;TakaoPGothic&quot;;</string>
+   </property>
+   <property name="text">
+    <string>当前故障查询</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>1290</x>
+     <y>50</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>TakaoPGothic</family>
+     <pointsize>30</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="resources.qrc">:/ico_260/907.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>wika_tableView</class>
+   <extends>QTableView</extends>
+   <header>wika_tableView.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
